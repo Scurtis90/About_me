@@ -1,0 +1,154 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  background-image: url("../images/4k-white-wallpaper-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.site__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.site__header {
+  background: #333;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.site__nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.site__nav a {
+  color: #fff;
+  padding: .5rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: .5s ease-in-ease-out;
+  border-radius: 25px;
+}
+
+.site__nav a:hover {
+  background: #ccc;
+}
+
+.section__intro {
+  padding: 2rem 0;
+  background: #333;
+  color: #fff;
+  border-top: 2px solid #fff;
+  border-radius: 25px;
+}
+
+.section__intro h1,
+.section__intro h3,
+.section__intro p {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#img__intro {
+  position: relative;
+  max-width: 50%;
+  height: auto;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 10px 10px 5px black;
+}
+
+.center__image {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.site__nav__bottom a {
+  color: black;
+  padding: .5rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: .5s ease-in-ease-out;
+  border-radius: 25px;
+}
+
+.site__nav__bottom ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.site__nav__bottom a:hover {
+  background: white;
+}
+
+.section__about {
+  padding: 2rem 0;
+  background: #333;
+  color: #fff;
+  border-top: 2px solid #fff;
+  border-radius: 25px;
+}
+
+.section__about h1,
+.section__about p {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.row {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.column {
+  flex: 33.3%;
+  padding: 5px;
+}
+
+.image-about {
+  position: relative;
+  max-width: 90%;
+  height: auto;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 10px 10px 5px black;
+}
+
+.contact__row {
+  display: flex;
+}
+
+.contact__column {
+  flex: 33.3%;
+  padding: 5px;
+}
+
+.img__size {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact__text {
+  text-align: center;
+}
+
+.contact__column a:hover {
+  opacity: 75%;
+}
